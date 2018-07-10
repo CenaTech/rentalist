@@ -1,5 +1,9 @@
-Solidity Example Project
+# Solidity Example Projects
 
-Using the Truffle Framework to create and example dapp to demonstrate using smart-contracts.
+### Pet Shop
 
-https://truffleframework.com/tutorials/pet-shop
+Using the [Truffle Framework](https://truffleframework.com/) to create and example dapp to demonstrate using smart-contracts in a web application.
+
+[Pet Shop Tutorial](https://truffleframework.com/tutorials/pet-shop)
+
+---
