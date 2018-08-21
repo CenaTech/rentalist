@@ -1,0 +1,18 @@
+[
+  {
+    "id": 0,
+    "name": "Canon C300",
+    "picture": "images/canon-c300.jpg",
+    "price": 20000,
+    "typeDesc": "SLR Movie Camera",
+    "location": "Lisco, Alabama"
+  },
+  {
+    "id": 1,
+    "name": "FOR-A 900fps 4K Camera",
+    "picture": "images/FOR-A-900fps-4k.png",
+    "price": 18500,
+    "typeDesc": "High Speed Camera",
+    "location": "Tooleville, West Virginia"
+  }
+]
