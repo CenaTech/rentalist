@@ -98,6 +98,7 @@ App = {
         return rentalInstance.rent(equipmentId, {from: account});
       }).then(function(result) {
         // transaction successful, call markRented to update interface
+        console.log("Equipment ID " + equipmentId + " successfully rented by Account ID " + account + ".");
         return App.markRented();
       }).catch(function(err) {
         console.log(err.message);
