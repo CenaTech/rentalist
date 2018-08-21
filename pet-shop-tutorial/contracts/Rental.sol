@@ -14,7 +14,7 @@ contract Rental {
 	  	require(equipmentId >= 0 && equipmentId <= 15);
 
 	  	// the require statement passed, add the address of the smart contract at the index of the equipmentId in renters
-	  	adopters[equipmentId] = msg.sender;
+	  	renters[equipmentId] = msg.sender;
 
 	  	// equipmentId is returned as a confirmation that the function completed successfully
 	  	return equipmentId;
