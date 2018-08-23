@@ -1,5 +1,9 @@
 const HDWalletProvider = require("truffle-hdwallet-provider");
 
+//dotenv should not be used in Production
+//Instead, the environment variables should be set manually on the host machine
+//Environment variables for dotenv are stored in the ".env" file in this directory
+
 require('dotenv').config()  // Store environment-specific variable from '.env' to process.env
 
 module.exports = {
