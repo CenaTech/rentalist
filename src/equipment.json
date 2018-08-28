@@ -78,5 +78,21 @@
     "price": 16000,
     "typeDesc": "Movie Camera",
     "location": "Williamsburg, NY"
+  },
+  {
+    "id": 10,
+    "name": "Telephoto Lens",
+    "picture": "images/telephoto-lens.jpg",
+    "price": 4500,
+    "typeDesc": "Movie Camera Lens",
+    "location": "Yonkers, NY"
+  },
+  {
+    "id": 11,
+    "name": "Soft Light Boxes",
+    "picture": "images/soft-light-boxes.jpg",
+    "price": 1250,
+    "typeDesc": "Lighting Equipment",
+    "location": "Flushing, NY"
   }
 ]
