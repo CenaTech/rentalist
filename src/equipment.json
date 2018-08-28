@@ -5,7 +5,7 @@
     "picture": "images/canon-c300.jpg",
     "price": 20000,
     "typeDesc": "SLR Movie Camera",
-    "location": "Lisco, Alabama"
+    "location": "Financial District, NY"
   },
   {
     "id": 1,
@@ -13,6 +13,70 @@
     "picture": "images/FOR-A-900fps-4k.png",
     "price": 18500,
     "typeDesc": "High Speed Camera",
-    "location": "Tooleville, West Virginia"
+    "location": "Upper East Side, NY"
+  },
+  {
+    "id": 2,
+    "name": "DJI Ronin 2 Gimbal",
+    "picture": "images/dji-ronin-2-gimbal.jpg",
+    "price": 3500,
+    "typeDesc": "Camera Gimbal",
+    "location": "Brooklyn, NY"
+  },
+  {
+    "id": 3,
+    "name": "GoPro",
+    "picture": "images/gopro.jpg",
+    "price": 1000,
+    "typeDesc": "Rugged movie camera",
+    "location": "Upper West Side, NY"
+  },
+  {
+    "id": 4,
+    "name": "Assorted Lenses (Pack of 11)",
+    "picture": "images/lenses.jpg",
+    "price": 11500,
+    "typeDesc": "Lenses for movie cameras",
+    "location": "Midtown Manhattan, NY"
+  },
+  {
+    "id": 5,
+    "name": "Spotlight",
+    "picture": "images/lighting.jpg",
+    "price": 1500,
+    "typeDesc": "Lighting Equipment",
+    "location": "Tribeca, NY"
+  },
+  {
+    "id": 6,
+    "name": "Studio Light Set (4 Pieces)",
+    "picture": "images/lighting-2.jpg",
+    "price": 20000,
+    "typeDesc": "Lighting Equipment",
+    "location": "Chelsea, NY"
+  },
+  {
+    "id": 7,
+    "name": "Proaim 15ft Crane",
+    "picture": "images/proaim-fly-15-ft-crane-cst100.jpg",
+    "price": 13300,
+    "typeDesc": "Camera Crane",
+    "location": "Murray Hill, NY"
+  },
+  {
+    "id": 8,
+    "name": "Red 8k Camera",
+    "picture": "images/red-8k-camera.jpg",
+    "price": 25500,
+    "typeDesc": "High Speed Camera",
+    "location": "Lower East Side, NY"
+  },
+  {
+    "id": 9,
+    "name": "Sony HXR NX5U",
+    "picture": "images/sony-hxr-nx5u.jpg",
+    "price": 16000,
+    "typeDesc": "Movie Camera",
+    "location": "Williamsburg, NY"
   }
 ]

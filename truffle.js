@@ -11,7 +11,9 @@ module.exports = {
     ganache: {
       host: "127.0.0.1",
       port: 7545,
-      network_id: "*" // matching any id
+      network_id: "*", // matching any idm,
+      gas: 1000000,
+      gasPrice: 10000000000
     },
     ropsten: {
       provider: () => new HDWalletProvider(process.env.MNENOMIC, "https://ropsten.infura.io/v3/" + process.env.INFURA_API_KEY),
