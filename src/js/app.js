@@ -69,11 +69,12 @@ App = {
         // renters array of addresses; when empty each address is an empty address
         if (renters[i] !== '0x0000000000000000000000000000000000000000') {
           // if equipment does not have empty address, it's been rented and mark it as such
-          $('.panel-equipment').eq(i).find('button').text('Success').attr('disabled', true);
+          $('.panel-equipment').eq(i).find('button').text('Rented').attr('disabled', true);
         }
       }
     }).catch(function(err) {
       console.log(err.message);
+      $('#error-note').show().find('.output').text("An error occurred. Press F12 to view details in the console.");
     });
   },
 
@@ -87,6 +88,8 @@ App = {
     web3.eth.getAccounts(function(error, accounts) {
       if (error) {
         console.log(error);
+        $('#error-note').show().find('.output').text("An error occurred. Press F12 to view details in the console.");
+
       }
       // get first account address
       var account = accounts[0];
@@ -99,9 +102,11 @@ App = {
       }).then(function(result) {
         // transaction successful, call markRented to update interface
         console.log("Equipment ID " + equipmentId + " successfully rented by Account ID " + account + ".");
+        $('#success-note').text("Equipment ID " + equipmentId + " successfully rented by Account ID " + account + ".").show();
         return App.markRented();
       }).catch(function(err) {
         console.log(err.message);
+        $('#error-note').show().find('.output').text("An error occurred. Press F12 to view details in the console.");
       });
     });
   }
